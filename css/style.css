@@ -3,15 +3,34 @@ body, html {
     margin: 0;
 }
 
-img.d-block.w-100 {
-    /* background-image: url("../images/kitchen2.jpg"); */
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    min-height: 100%;
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
+
+.codrops-top {
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 1px 0px 2px #fff;
+
+    /* background: rgba(51, 51, 51, 0.5); */
+}
+
+.codrops-top a:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.codrops-top a {
+    color: #000000;
+    font-size: 20px;
+    padding: 13px 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2,

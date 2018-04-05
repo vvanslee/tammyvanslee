@@ -52,7 +52,7 @@ abbr,acronym { border:0;
 /* General Demo Style */
 body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #000;
+	background: rgb(224, 224, 224);
 	font-weight: 400;
 	font-size: 15px;
 	color: #aa3e03;
@@ -129,7 +129,6 @@ a{
 	float: right;
 }
 .codrops-top span.right a{
-	float: none;
 	display: inline;
 }
 
