@@ -41,6 +41,7 @@ a:hover {
 }
 
 .modal-content {
+    background-color: rgba(255, 255, 255, 1);
     border: 0;
     border-radius: 0%;
     height: 100%;
@@ -49,9 +50,6 @@ a:hover {
 .modal-backdrop {
     background-color: rgba(0, 0, 0, 0)
 }
-
-
-
 
 
 
