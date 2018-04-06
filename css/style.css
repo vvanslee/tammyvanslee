@@ -32,6 +32,27 @@ a:hover {
     text-decoration: none;
 }
 
+.modal-dialog {
+    padding-top: 50px;
+    margin: 0px;
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+.modal-content {
+    border: 0;
+    border-radius: 0%;
+    height: 100%;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+
+
+
 
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2,
