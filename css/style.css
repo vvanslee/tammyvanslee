@@ -32,6 +32,40 @@ a:hover {
     text-decoration: none;
 }
 
+.btn {
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline;
+    font-size: 20px;
+    padding: 13px 10px;
+    border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
 .modal-dialog {
     padding-top: 50px;
     margin: 0px;
