@@ -69,9 +69,13 @@ a:hover {
 .modal-dialog {
     padding-top: 50px;
     margin: 0px;
-    width: 500px;
+    width: 400px;
     height: 100%;
     float: right;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .modal-content {
@@ -85,6 +89,17 @@ a:hover {
     background-color: rgba(0, 0, 0, 0)
 }
 
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    border-top: none;
+}
 
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2,
