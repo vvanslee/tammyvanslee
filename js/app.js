@@ -13,3 +13,24 @@ $( document ).ready(function() {
     })
 
 });
+
+
+// GALLERY MODAL
+
+$( document ).ready(function() {
+
+    var modal = document.getElementById('myModal');
+    var modalImg = document.getElementById("img01");
+
+    $('img').click(function () {
+        console.log($(this).attr('src'));
+        modal.style.display = "block";
+        modalImg.src = $(this).attr('src');
+    });
+
+    var span = document.getElementsByClassName("galClose")[0];
+    span.onclick = function() { 
+        modal.style.display = "none";
+         }
+
+});
