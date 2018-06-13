@@ -34,3 +34,22 @@ $( document ).ready(function() {
          }
 
 });
+
+
+// TOGGLE GRID & CAROUSEL
+
+$( document ).ready(function() {
+
+    $('#carouselBtn').click(function(){
+        console.log("carousel button clicked");
+        $('#gridView').hide();
+        $('#carouselView').show();
+    });
+
+    $("#gridBtn").click(function(){
+        console.log("grid button clicked");
+        $("#carouselView").hide();
+        $("#gridView").show();
+    });
+
+});

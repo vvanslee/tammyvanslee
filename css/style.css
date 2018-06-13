@@ -163,6 +163,15 @@ button:focus {
     opacity: .8;
 }
 
+
+#carouselView {
+    display: none;
+}
+
+
+
+
+
 /* GALLERY MODAL */
 
 /* The Modal (background) */
