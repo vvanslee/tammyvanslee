@@ -138,6 +138,59 @@ button:focus {
     border-top: none;
 }
 
+/* SIDENAV */
+
+.sideNav {
+    padding-top: 50px;
+}
+
+/* BUTTONS */
+
+#carouselBtn{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: #fff;
+    border: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#carouselBtn.focus, #carouselBtn:focus {
+    box-shadow: none;
+}
+
+#carouselBtn:hover {
+    color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#gridBtn{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: #fff;
+    border: none;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+#gridBtn.focus, #gridBtn:focus {
+    box-shadow: none;
+}
+
+#gridBtn:hover {
+    color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
 /* GALLERY */
 
 .galleryCont {

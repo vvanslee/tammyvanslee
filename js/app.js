@@ -44,12 +44,17 @@ $( document ).ready(function() {
         console.log("carousel button clicked");
         $('#gridView').hide();
         $('#carouselView').show();
+        $('#carouselBtn').css('font-weight','bold');
+        $('#gridBtn').css('font-weight','normal');
+
     });
 
     $("#gridBtn").click(function(){
         console.log("grid button clicked");
         $("#carouselView").hide();
         $("#gridView").show();
+        $('#gridBtn').css('font-weight','bold');
+        $('#carouselBtn').css('font-weight','normal');
     });
 
 });
