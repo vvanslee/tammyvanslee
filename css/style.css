@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     overflow: auto;
+    background: #fff;
 }
 
 .container-fluid {
@@ -131,17 +132,52 @@ button:focus {
 }
 
 .icons {
-    margin-top: 15px;
+    margin-top: 15px !important;
 }
 
 .modal-footer {
     border-top: none;
 }
 
+.modalBtn {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.modalBtn:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #000000;
+    border: 1px solid;
+    border-radius: .25rem;
+    transition: none;
+}
+
+.modalBtn.focus, .modalBtn:focus {
+    box-shadow: none;
+}
+
+.modalBtn:not(:disabled):not(.disabled).active:focus,
+.modalBtn:not(:disabled):not(.disabled):active:focus,
+.show>.modalBtn.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.modalBtn:not(:disabled):not(.disabled).active,
+.modalBtn:not(:disabled):not(.disabled):active,
+.show>.modalBtn.dropdown-toggle {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
 /* SIDENAV */
 
 .sideNav {
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 /* BUTTONS */
@@ -197,7 +233,7 @@ button:focus {
     margin-top: -50px;
     padding-top: 50px;
     background-color: #fff;
-    /* min-height: 100vh; */
+    height: 100%;
 }
 
 .galleryGrid {
@@ -216,13 +252,10 @@ button:focus {
     opacity: .8;
 }
 
-
 #carouselView {
     display: none;
+    height: 100%;
 }
-
-
-
 
 
 /* GALLERY MODAL */
@@ -356,5 +389,6 @@ button:focus {
 }
 
 .row {
-    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
