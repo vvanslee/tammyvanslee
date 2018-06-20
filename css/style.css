@@ -99,6 +99,8 @@ button:focus {
     outline: none;
 }
 
+/* CONTACT MODAL */
+
 .modal-dialog {
     padding-top: 50px;
     margin: 0px;
@@ -170,6 +172,12 @@ button:focus {
     color: #000000;
     background-color: rgba(255, 255, 255, 0);
     border: none;
+}
+
+#bio {
+    padding: 5%;
+    font-size: 15px;
+    margin-bottom: 20%;
 }
 
 /* SIDENAV */
